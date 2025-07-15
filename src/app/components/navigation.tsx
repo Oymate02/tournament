@@ -1,8 +1,7 @@
-"use client";
+import { use } from "react";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-// ...existing code...
 
 export const Navigation = () => {
   const pathname = usePathname();
